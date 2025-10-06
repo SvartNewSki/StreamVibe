@@ -1,5 +1,13 @@
 {
-    "require": {
-        "doctrine/dbal": "^4.3"
+  "autoload": {
+    "psr-4": {
+      "core\\": "core/",
+      "core\\models\\": "core/models/",
+      "core\\router\\": "core/Router/",
+      "app\\": ""
     }
+  },
+  "require": {
+    "doctrine/dbal": "^4.3"
+  }
 }
