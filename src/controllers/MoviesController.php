@@ -1,4 +1,5 @@
 <?php
+namespace app\controllers;
 
 use core\controllers\WebController;
 use core\models\BaseView;
