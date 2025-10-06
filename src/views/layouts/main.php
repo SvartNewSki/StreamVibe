@@ -9,11 +9,11 @@
 <body>
     <div class="highblock">
         <div class="backImage">
-            <img src="./img/Sub_Container.png" alt="">
+            <img class= "backgr-films" src="./img/Sub_Container.png" alt="">
         </div>
-        <div class="logo">
-            <img class="logo" src="./img/logo-NewSki.png" alt="">
-        </div>
+        <!-- <div class="logo">
+            <img class="logotype" src="./img/logo-NewSki.png" alt="">
+        </div> -->
         
         <div class="title">
         The Best Streaming Experience
