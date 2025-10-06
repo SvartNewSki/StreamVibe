@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+body {
+  background-color: #0f0f0f;
+}
+.highblock {
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+
+  flex-direction: row;
+  background-color: red;
+}
+.backImage {
+  background-image: url("/src/img/Sub_Container.png");
+
+  position: absolute;
+  display: flex;
+  height: auto;
+  /* background-size: contain; */
+}
+.backImage img {
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+  display: block;
+}
+.backImage::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background: #f7f2f2;
+  background: radial-gradient(
+    circle,
+    rgba(247, 242, 242, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.logo {
+  height: 7em;
+  margin-top: 0.5em;
+  margin-left: 10em;
+  z-index: 1;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 35em;
+  height: 4.5em;
+  background-color: black;
+  margin: 1.5em 0em 1.5em 20em;
+  border-radius: 1em;
+  z-index: 1;
+
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      padding: 1.5em 0.75em 1.5em 0.75em;
+    }
+  }
+}
+.title {
+  z-index: 1;
+  margin: auto;
+}
