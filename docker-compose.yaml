@@ -1,7 +1,6 @@
-version: '3'
+version: "3"
 
 services:
-
   nginx:
     build:
       context: .
@@ -29,9 +28,9 @@ services:
     expose:
       - 4000
     environment:
-      POSTGRES_PASSWORD: example
-      POSTGRES_USER: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: Amir1994!
+      POSTGRES_USER: FoxGin
+      POSTGRES_DB: StreamVibe
       PGDATA: /data/postgres
     volumes:
       - pg:/data/postgres
