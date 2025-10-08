@@ -45,7 +45,7 @@ class Router {
     private function callAction($action, $params = []){
         
         [$controller, $method] = explode("@", $action);
-        var_dump($controller);
+        // var_dump($controller);
         $controller = "app\\controllers\\" . $controller;
         
         $controllerInstance = new $controller();
