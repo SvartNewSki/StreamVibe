@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    Movies
+    <div>
+        <form method="post" action="/auth">
+        <input type="Login" name="login">
+        <input type="Password" name="password">
+        <button type="submit" class="btn">Go</button>
+        </form>
+    </div>
+
 </body>
 </html>
